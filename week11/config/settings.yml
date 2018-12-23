@@ -1,0 +1,15 @@
+user:
+ name:
+  max_length: 50
+  presence: true
+ email:
+  max_length: 255
+  presence: true
+  uniqueness: { case_sensitive: false }
+ password:
+  min_length: 6
+  presence: true
+ paginate:
+  per_page: 20
+ gravatar:
+  size: 50
