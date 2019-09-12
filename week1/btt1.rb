@@ -1,5 +1,5 @@
 a = -2.0
-b = 2
+b = 5
 c = -1.0
 if a == 0
 	puts "Khong phai phuong trinh bac 2!"
